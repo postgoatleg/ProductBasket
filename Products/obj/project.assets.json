@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ExceptionHandling/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ExceptionHandling.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExceptionHandling.dll": {}
+        }
+      },
+      "ProductsClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ExceptionHandling": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductsClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductsClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExceptionHandling/1.0.0": {
+      "type": "project",
+      "path": "../ExceptionHandling/ExceptionHandling.csproj",
+      "msbuildProject": "../ExceptionHandling/ExceptionHandling.csproj"
+    },
+    "ProductsClass/1.0.0": {
+      "type": "project",
+      "path": "../ProductsClass/ProductsClass.csproj",
+      "msbuildProject": "../ProductsClass/ProductsClass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ProductsClass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/andreikovtun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj",
+      "projectName": "Products",
+      "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj",
+      "packagesPath": "/Users/andreikovtun/.nuget/packages/",
+      "outputPath": "/Users/andreikovtun/Projects/ProductsSolution/Products/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/andreikovtun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj": {
+              "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

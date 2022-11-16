@@ -1,0 +1,15 @@
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/bin/Debug/net6.0/ProductsClass.deps.json
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/bin/Debug/net6.0/ProductsClass.dll
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/bin/Debug/net6.0/ProductsClass.pdb
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.csproj.AssemblyReference.cache
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.AssemblyInfoInputs.cache
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.AssemblyInfo.cs
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.csproj.CoreCompileInputs.cache
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.dll
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/refint/ProductsClass.dll
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.pdb
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ref/ProductsClass.dll
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/bin/Debug/net6.0/ExceptionHandling.dll
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/bin/Debug/net6.0/ExceptionHandling.pdb
+/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/Debug/net6.0/ProductsClass.csproj.CopyComplete

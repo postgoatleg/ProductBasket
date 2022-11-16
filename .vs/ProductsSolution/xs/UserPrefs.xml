@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{D905C389-1326-443C-B5FD-1CFE780490EB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductsClass/Product.cs">
+    <Files>
+      <File FileName="Products/Program.cs" Line="3" Column="9" />
+      <File FileName="ProductsClass/Product.cs" Line="77" Column="29" />
+      <File FileName="ProductsMSTests/UnitTest1.cs" Line="2" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProductsSolution" expanded="True">
+            <Node name="Products" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ProductsClass" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Product.cs" selected="True" />
+            </Node>
+            <Node name="ProductsMSTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ProductsSolution" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ExceptionHandling FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Products PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
