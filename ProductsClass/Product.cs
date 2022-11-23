@@ -4,10 +4,10 @@ namespace ProductsClass
 {
 public class Product
 {
-    string name = "";
+    string name;
     double price=0;
 
-    public Product(string name, double price=0)
+    public Product(string name, double price)
     {
             try
             {
@@ -139,22 +139,18 @@ public class Product
 
         public override bool Equals(object obj)
         {
-            if (ReferenceEquals(this, obj))
+            if (ReferenceEquals(this, obj) || ReferenceEquals(this, null) || ReferenceEquals(this, ))
             {
                 return true;
             }
-
-            if (ReferenceEquals(obj, null))
-            {
-                return false;
-            }
+            else return false;
 
             throw new NotImplementedException();
         }
 
         public override int GetHashCode()
         {
-            throw new NotImplementedException();
+            return (int)this.price;
         }
     }
 }

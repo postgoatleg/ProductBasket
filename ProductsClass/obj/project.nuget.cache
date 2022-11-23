@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zqiEsZ3ztWJpO+RZa0VSSLD4Ww76GlmD+P5ztogxEw/eRLEX9tHW9IRmZaYE4hg2pN0LtBj1EidqvsbzPgEtaA==",
+  "dgSpecHash": "gEKS6qHT3DAW7GF5l+0Q34zVQvX1BgE/z7lJx0VcHj1IoDYNjCuVDUrJnF/fSOFahUcXBMXSImbedm2ju2gt7A==",
   "success": true,
-  "projectFilePath": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj",
+  "projectFilePath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

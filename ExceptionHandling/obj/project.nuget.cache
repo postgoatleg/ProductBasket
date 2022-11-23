@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zIXOA8QK2nVEvQObU95+27qmvEOi5M9hj76o/g0mx54dy3oomMluZbyr7jK3kcL993jwqE51kt3STC9rBzOaXA==",
+  "dgSpecHash": "dDLxVJmIfTiXhMIiOxo0b4sX5ihQMW5hLmktXk0O6lodFPOA3Htrn0xno3M5hy5Agde5cAx/+fEHMRkDlbfttA==",
   "success": true,
-  "projectFilePath": "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj",
+  "projectFilePath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

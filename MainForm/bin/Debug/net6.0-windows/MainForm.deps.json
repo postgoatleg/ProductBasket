@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MainForm/1.0.0": {
+        "dependencies": {
+          "ProductsClass": "1.0.0"
+        },
+        "runtime": {
+          "MainForm.dll": {}
+        }
+      },
+      "ExceptionHandling/1.0.0": {
+        "runtime": {
+          "ExceptionHandling.dll": {}
+        }
+      },
+      "ProductsClass/1.0.0": {
+        "dependencies": {
+          "ExceptionHandling": "1.0.0"
+        },
+        "runtime": {
+          "ProductsClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExceptionHandling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductsClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

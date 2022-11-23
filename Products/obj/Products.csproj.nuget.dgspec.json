@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj": {}
+    "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\Products\\Products.csproj": {}
   },
   "projects": {
-    "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj": {
+    "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj",
+        "projectUniqueName": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj",
         "projectName": "ExceptionHandling",
-        "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj",
-        "packagesPath": "/Users/andreikovtun/.nuget/packages/",
-        "outputPath": "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/obj/",
+        "projectPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj",
+        "packagesPath": "C:\\Users\\goatl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/andreikovtun/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\goatl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,91 +60,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj": {
+    "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj",
-        "projectName": "Products",
-        "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/Products/Products.csproj",
-        "packagesPath": "/Users/andreikovtun/.nuget/packages/",
-        "outputPath": "/Users/andreikovtun/Projects/ProductsSolution/Products/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/andreikovtun/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj": {
-                "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj",
+        "projectUniqueName": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj",
         "projectName": "ProductsClass",
-        "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/ProductsClass.csproj",
-        "packagesPath": "/Users/andreikovtun/.nuget/packages/",
-        "outputPath": "/Users/andreikovtun/Projects/ProductsSolution/ProductsClass/obj/",
+        "projectPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj",
+        "packagesPath": "C:\\Users\\goatl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/andreikovtun/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\goatl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj": {
-                "projectPath": "/Users/andreikovtun/Projects/ProductsSolution/ExceptionHandling/ExceptionHandling.csproj"
+              "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj": {
+                "projectPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ExceptionHandling\\ExceptionHandling.csproj"
               }
             }
           }
@@ -167,7 +124,71 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\Products\\Products.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\Products\\Products.csproj",
+        "projectName": "Products",
+        "projectPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\Products\\Products.csproj",
+        "packagesPath": "C:\\Users\\goatl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\Products\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\goatl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj": {
+                "projectPath": "C:\\Users\\goatl\\Documents\\ООП\\ProductBasket\\ProductsClass\\ProductsClass.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
