@@ -12,7 +12,18 @@
         <TextBox x:Name="priceTextBox" HorizontalAlignment="Left" Margin="32,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="24" FontSize="14"/>
         <Label x:Name="priceLabel" Content="Product price:" HorizontalAlignment="Left" Margin="32,83,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Button x:Name="addBtn" Content="Add product" HorizontalAlignment="Left" Margin="32,169,0,0" VerticalAlignment="Top" FontSize="22" Width="155" Height="38" Opacity="0.9" Click="addBtn_Click"/>
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{Binding}" Margin="32,229,855,10">
+        <DataGrid x:Name="dataGrid" Margin="32,229,855,10">
+            <DataGrid.Items>
+            </DataGrid.Items>
+            <DataGrid.Columns>
+
+            </DataGrid.Columns>
         </DataGrid>
+        <ComboBox x:Name="mathOprndComboBox" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="mathOprndComboBox_SelectionChanged"/>
+        <ComboBox x:Name="prod1ComboBox" HorizontalAlignment="Left" Margin="440,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="prod2ComboBox" HorizontalAlignment="Left" Margin="720,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="resultLabel" Content="Results will being here..." HorizontalAlignment="Left" Margin="640,202,0,0" VerticalAlignment="Top" FontSize="36" Height="395" Width="482"/>
+        <Button x:Name="resultBtn" Content="Get result" Margin="569,90,580,563" Click="Button_Click" FontSize="16"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="440,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="39" FontSize="14"/>
     </Grid>
 </Window>

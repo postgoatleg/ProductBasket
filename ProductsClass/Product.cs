@@ -1,4 +1,5 @@
 ﻿using ExceptionHandling;
+using System.IO.Pipes;
 
 namespace ProductsClass
 {
@@ -7,7 +8,17 @@ public class Product
     string name;
     double price=0;
 
-    public Product(string name, double price)
+        public string Name => name;
+        public double Price => price;
+
+        public static List<string> GetNames(List<Product> products)
+        {
+            List<string> names = new List<String>();
+            foreach (Product p in products) { names.Add(p.Name); }
+            return names;
+        }
+
+        public Product(string name, double price)
     {
             try
             {
@@ -139,7 +150,7 @@ public class Product
 
         public override bool Equals(object obj)
         {
-            if (ReferenceEquals(this, obj) || ReferenceEquals(this, null) || ReferenceEquals(this, ))
+            if (ReferenceEquals(this, obj) || ReferenceEquals(this, null))
             {
                 return true;
             }
